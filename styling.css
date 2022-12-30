@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  --secondary: hsl(213deg, 20%, 22%);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: var(--Very-Dark-Blue);
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: var(--Dark-Blue);
+    border-radius: 1rem;
+    width: 350px;
+    position: absolute;
+    height: 350px;
+    padding: 25px;
+    display: flex;
+
+}
+    
+.iconStar{
+    background-color: var(--secondary);
+    width: auto;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    position: absolute;
+}
+.hdwg{
+    margin-top: 65px;
+}
+.hdwg h3{
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+    font-size: 25px;
+}
+.hdwg p{
+    color: hsl(0, 0%, 70%);
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.ratings button{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    cursor: pointer;
+    margin-bottom: 1rem;
+    color: var( --Medium-Grey);
+}
+
+.ratings button:hover{
+    background-color: var(--Light-Grey);
+    color: white;
+    transition: 0.3s;
+}
+
+#submit_btn{
+    width: 100%;
+    border-radius: 20px;
+    height: 35px;
+    text-transform: uppercase;
+    background-color: var(--Orange);
+    border: none;
+    margin-bottom: 1rem;
+    color: white;
+    cursor: pointer;
+}
+#submit_btn:hover{
+    background-color: white;
+    color: var(--Orange);
+    transition: 0.3s;
+}
+.thankYou{
+    background-color: var(--Dark-Blue);
+    border-radius: 1rem;
+    width: 350px;
+    position: absolute;
+    height: 350px;
+    text-align: center;
+    justify-content: center; 
+    display: none;
+}
+.afterclick{
+    margin-top: 35px;
+    
+}
+.afterclick p{
+    background-color: var(--secondary);
+    color: var(--Orange);
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    margin-left: 75px;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.title{
+    color: white;
+    margin-top: 20px;
+    
+}
+.thankyou-card p{
+    text-align: center;
+    padding: 8px;
+    color: white;
+    opacity: 0.5;
+}
+.attribution{
+    margin-top: auto;
+    color: white;    
+}
+.attribution p a{
+    text-decoration: none;
+    color: var(--Orange);
+}
+
+
+
+
